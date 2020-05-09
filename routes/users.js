@@ -5,6 +5,8 @@ var router = express.Router();
 router.post('/getusers', function(req, res, next) {
   res.send('respond with a resource');
 });
-
+router.post('/getuserssss', function(req, res, next) {
+  res.send('respond with a resource');
+});
 
 module.exports = router;
